@@ -16,7 +16,7 @@ Steganography Decoder is a web application that allows you to hide secret messag
 
 ## 🚀 Live Demo
 
-Try it now: [Steganography Decoder](https://arnesethiago.github.io/steganography-decoder)
+Try it now: [Steganography Decoder](https://steganography-decoder.netlify.app/)
 
 ## 🛠️ Installation
 
@@ -80,9 +80,5 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 📞 Contact
-
-Thiago Arnese - [@arnesethiago](https://github.com/arnesethiago)
 
 Project Link: [https://github.com/arnesethiago/steganography-decoder](https://github.com/arnesethiago/steganography-decoder)
