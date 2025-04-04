@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://arnesethiago.github.io/steganography-decoder",
+  "homepage": ".",
   "browserslist": {
     "production": [
       ">0.2%",
