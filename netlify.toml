@@ -1,12 +1,19 @@
 [build]
-  command = "npm run build"
+  command = "CI= npm run build"
   publish = "build"
 
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "16"
+  NPM_VERSION = "8"
+  CI = "false"
 
 # Handle SPA routing by redirecting all routes to index.html
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
